@@ -1,0 +1,103 @@
+    h1 {
+      background-color: #FDC9FF;
+      color: #fff;
+      text-align: center;
+    }
+    
+    a {
+      color: #fff;
+    }
+    
+    body {
+      background-color: #9DD8F5;
+    }
+    
+    /* mengubah div menjadi tampilan kartu */
+    div.kartu-profil {
+      background-color: #FDC9FF;
+      width: 250px;
+      margin: 20px auto;
+      padding: 20px;
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(164, 165, 248, 1);
+      text-align: center;
+    }
+    
+    div.kartu-profil img {
+      border-radius: 50%;
+      border: 3px solid #9DD8F8;
+    }
+    
+    .navigasi {
+      background-color: #FDC9FF;
+      padding: 10px;
+      text-align: center;
+      border-radius: 10px;
+    }
+    
+    .navigasi a {
+      text-decoration: none;
+    }
+    
+    .navigasi .aktif {
+      font-weight: bold;
+      color: #2DA8E4;
+    }
+    
+    div.kartu-kontak {
+      background-color: #FFC4F6;
+      width: 80%;
+      margin: 0 auto;
+      /* elemen rata tengah horizontal */
+      padding: 10px;
+      /* sudut kotak tumpul*/
+      border-radius: 10px;
+      text-align: center  ;
+    }
+    
+    .tombol-medsos{
+      /* agar tombol melebar satu baris penuh */
+      display: block;
+      padding: 10px;
+      /* text rata tengah */
+      text-align: center;
+      text-decoration: none;
+      margin: 8px;
+      /* sudut tumpul */
+      border-radius: 8px;
+    }
+    
+    .wa {
+      background-color: #BAD0FF;
+    }
+    
+    .github {
+      background-color: #FBCCFF;
+    }
+    
+    .galeri-container{
+      text-align: center;
+      width: 100%;
+      margin: 0 auto;
+    }
+    
+    /*item galeri foto*/
+    .galeri-item {
+      width: 50%;
+      max-width: 180px;
+      display: inline-block;
+      margin: 10px;
+      border-radius: 8px;
+      overflow: hidden;
+      background-color: #FDC9FF;
+    }
+    
+    .galeri-item img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+    .galeri-item p {
+      padding: 0px;
+      line-height: 0.5;
+    }
