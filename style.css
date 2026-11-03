@@ -14,19 +14,20 @@
     
     /* mengubah div menjadi tampilan kartu */
     div.kartu-profil {
-      background-color: #FDC9FF;
-      width: 250px;
-      margin: 20px auto;
-      padding: 20px;
-      border-radius: 20px;
-      box-shadow: 0 4px 8px rgba(164, 165, 248, 1);
-      text-align: center;
-    }
-    
-    div.kartu-profil img {
-      border-radius: 50%;
-      border: 3px solid #9DD8F8;
-    }
+  background-color: #FFC6FF;
+  width: 250px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(203, 221, 243, 1);
+  text-align: center;
+}
+
+div.kartu-profil img {
+  border-radius: 50%;
+  width: 150px;
+  border: 6px solid #BBDAFF;
+}
     
     .navigasi {
       background-color: #FDC9FF;
