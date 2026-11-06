@@ -1,21 +1,21 @@
 // variabel untuk menyimpan porsi makan kucing
 // dengan nilai awal nol (0))
-let porsi = 0
+let air = 0
 
 function siramtanaman() {
-  // Tambah porsi makan +1
-  porsi = porsi + 1
+  // Tambah porsi penyiraman +1
+  air = air + 1
   
-  // update angka porsi siram tanaman
-  document.getElementById('teks-porsi').innerText = porsi
+  // update angka air siram tanaman
+  document.getElementById('teks-porsi').innerText = air
   
-  if (porsi >= 20) {
+  if (air >= 20) {
     // ganti gambar benih menjadi tunas
     document.getElementById('foto-tanaman').src = "gambar/berbunga.jpg"
     
     // menampilkan tulisan berbunga
     document.getElementById('status-tanaman').innerText = "berbunga 🌸🌷"
-  } else if (porsi >= 10) {
+  } else if (air >= 10) {
     // ganti gambar tunas menjadi berbunga
     document.getElementById('foto-tanaman').src = "gambar/tunas.jpg"
     
